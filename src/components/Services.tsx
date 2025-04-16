@@ -2,28 +2,28 @@ import React from 'react';
 import { Scissors, Trash2, PaintBucket, PaintRoller, TreePine, Flower } from 'lucide-react';
 export function Services() {
   const services = [{
-    title: 'Lawn Mowing',
-    description: 'Regular cutting and edging to keep your lawn looking pristine',
+    title: 'Grass Cutting',
+    description: 'Professional lawn mowing and mainteance to keep your grass healthy and beautiful',
     icon: <Scissors className="h-10 w-10 text-green-600" />
   }, {
-    title: 'Weed Control',
-    description: 'Clearing and disposal of yard waste, branches, and other debris',
+    title: 'Weed Removal',
+    description: 'Natural and effective weed control to protect your landscape',
     icon: <Trash2 className="h-10 w-10 text-green-600" />
   }, {
     title: 'Roof Cleaning & Painting',
-    description: 'We wash your roof spotless clean, and paint it a new colour.',
+    description: 'Professional roof cleaning service to maintain the appearance of your home',
     icon: <PaintBucket className="h-10 w-10 text-green-600" />
   }, {
     title: 'Painting',
-    description: 'We paint pavement, house (inside & outside)',
+    description: 'Expert painting service to enhance the appearance of your property',
     icon: <PaintRoller className="h-10 w-10 text-green-600" />
   }, {
-    title: 'Flower Bed Preparation',
-    description: 'We build up a flower bed and plant new fresh flowers.',
+    title: 'Flower Bed Maintenance',
+    description: 'Careful maintenance and nurturing of your flower beds and gardens',
     icon: <Flower className="h-10 w-10 text-green-600" />
   }, {
-    title: 'Tree & Shrub Trimming',
-    description: 'Pruning and shaping to maintain healthy growth',
+    title: 'Hedge Trimming',
+    description: 'Professional trimming and shaping of hedges and shrubs for a manicured look',
     icon: <TreePine className="h-10 w-10 text-green-600" />
   }];
   return <section id="services" className="py-16 bg-gray-50">
