@@ -17,7 +17,7 @@ export function ContactSection() {
             <h3 className="text-xl font-bold mb-6 text-gray-800">
               Send Us a Message
             </h3>
-            <form className="space-y-4">
+            <form action="https://formspree.io/f/movegwvl" method="POST" className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-gray-700 mb-1">
