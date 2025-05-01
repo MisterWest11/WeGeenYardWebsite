@@ -1,4 +1,3 @@
-import React from 'react';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 export function Footer() {
   return <footer className="bg-gray-900 text-white">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export function ContactSection() {
@@ -28,6 +27,7 @@ export function ContactSection() {
                     id="name"
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
                     placeholder="Your name"
+                    name="name"
                   />
                 </div>
                 <div>
@@ -39,6 +39,7 @@ export function ContactSection() {
                     id="phone"
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
                     placeholder="Your phone number"
+                    name="phone"
                   />
                 </div>
               </div>
@@ -51,6 +52,7 @@ export function ContactSection() {
                   id="email"
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
                   placeholder="Your email address"
+                  name="email"
                 />
               </div>
               <div>
@@ -84,6 +86,7 @@ export function ContactSection() {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={4}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
                   placeholder="Tell us about your yard cleaning needs"
@@ -107,7 +110,7 @@ export function ContactSection() {
                   <Phone className="h-6 w-6 text-green-600 mr-3 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-gray-800">Phone</p>
-                    <p className="text-gray-600">(+27) 66-124-3993</p>
+                    <p className="text-gray-600">(+27) 84-825-7620</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -130,9 +133,9 @@ export function ContactSection() {
                   <Clock className="h-6 w-6 text-green-600 mr-3 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-gray-800">Business Hours</p>
-                    <p className="text-gray-600">Monday-Friday: 8am-6pm</p>
-                    <p className="text-gray-600">Saturday: 8am-6pm</p>
-                    <p className="text-gray-600">Sunday: 8am-6pm</p>
+                    <p className="text-gray-600">Monday-Friday: 9am-3pm</p>
+                    <p className="text-gray-600">Saturday: 8am-1pm</p>
+                    <p className="text-gray-600">Sunday: Closed</p>
                   </div>
                 </li>
               </ul>
@@ -143,7 +146,7 @@ export function ContactSection() {
                 We offer expedited service for storm damage and urgent yard
                 issues.
               </p>
-              <p className="font-bold">(+27) 66-124-3993</p>
+              <p className="font-bold">(+27) 84-825-7620</p>
             </div>
           </div>
         </div>
