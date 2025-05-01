@@ -1,5 +1,4 @@
-import React from 'react';
-import afterYard from '../images/afterYard.jpg';
+import foreground_picture from './images/foreground_picture.jpg';
 export function Hero() {
   return <section className="bg-gradient-to-r from-green-800 to-green-600 text-white">
       <div className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
@@ -21,7 +20,7 @@ export function Hero() {
           </div>
         </div>
         <div className="md:w-1/2">
-          <img src={afterYard} alt="Well-maintained yard with professional landscaping" className="rounded-lg shadow-lg w-full h-auto object-cover" />
+          <img src={foreground_picture} alt="Well-maintained yard with professional landscaping" className="rounded-lg shadow-lg w-full h-auto object-cover" />
         </div>
       </div>
     </section>;
